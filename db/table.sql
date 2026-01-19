@@ -28,3 +28,22 @@ VALUES (
     10,
     'FLAG{CAESAR_E_AMICO}'
 );
+INSERT INTO challenges (title, slug, description, points, flag, active)
+VALUES (
+    'RSA Breaker',
+    'rsa_corrotto',
+    'Decifra il seguente messaggio cifrato con RSA: 1660585305757591176224234804801 (usa n = 2000000000000000000000000000002 e e = 65537)',
+    20,
+    'FLAG{RSA_CORROTTO}',
+    1
+);
+INSERT INTO challenges
+(title, slug, description, points, flag, active)
+VALUES (
+    'Robots Don’t Keep Secrets',
+    'robots',
+    'Trova la pagina nascosta usando robots.txt.',
+    10,
+    'FLAG{ROBOTS_NON_PROTEGGONO_NULLA}',
+    1
+);
